@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bean</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="navbar-logo" href="#home"><span>B</span>rew &amp; Bean</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Buka menu">☰</button>
+            <div class="navbar-list" id="primary-navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a class="nav-order" href="#menu">Order Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <p class="eyebrow">GOOD COFFEE, BETTER DAYS</p>
+            <h1>Fresh Coffee for a Brighter Day</h1>
+            <p>Nikmati cita rasa kopi terbaik dengan bahan pilihan dan proses penyajian yang penuh perhatian.</p>
+            <div class="hero-actions">
+                <a class="btn" href="#menu">Lihat Menu</a>
+                <a class="btn btn-outline" href="#about">Tentang Kami</a>
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <p>OUR MENU</p>
+            <h2>Menu Andalan Kami</h2>
+            <p>Racikan kopi terbaik dengan rasa autentik yang selalu jadi favorit.</p>
+
+            <div class="menu-list">
+                <article class="menu-card">
+                    <img src="assets/image/americano.jpg" alt="Kopi Americano">
+                    <h3>Americano</h3>
+                    <p>Kopi hitam klasik dengan rasa yang kuat.</p>
+                    <div class="menu-card-bottom">
+                        <span>Rp 18.000</span>
+                        <button type="button" aria-label="Tambah Americano">+</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="assets/image/caramel_macchiato.jpg" alt="Kopi Caramel Macchiato">
+                    <h3>Caramel Macchiato</h3>
+                    <p>Espresso, susu, dan karamel manis.</p>
+                    <div class="menu-card-bottom">
+                        <span>Rp 26.000</span>
+                        <button type="button" aria-label="Tambah Caramel Macchiato">+</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="assets/image/latte.jpg" alt="Kopi Latte">
+                    <h3>Latte</h3>
+                    <p>Perpaduan espresso dan susu yang creamy.</p>
+                    <div class="menu-card-bottom">
+                        <span>Rp 22.000</span>
+                        <button type="button" aria-label="Tambah Latte">+</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="assets/image/cappuccino.jpg" alt="Secangkir Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso dengan susu dan foam yang lembut.</p>
+                    <div class="menu-card-bottom">
+                        <span>Rp 22.000</span>
+                        <button type="button" aria-label="Tambah Cappuccino">+</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-content">
+                <p>TENTANG KAMI</p>
+                <h2>Lebih dari Sekedar Kopi</h2>
+                <p>Brew & Bean adalah tempat dimana rasa, suasana, dan kebersamaan bertemu. Kami percaya bahwa secangkir kopi yang baik bisa  membuat hari biada menjadi istimewa.</p>
+                <a href="#location" class="btn">Pelajari lebih lanjut</a>
+            </div>
+            <div class="about-image">
+                <img src="assets/image/interior.jpg" alt="Suasana Cafe">
+            </div>
+        </section>
+        <section id="testimonial" class="testimonial">
+            <p>TESTIMONIAL</p>
+            <h2>Apa Kata Mereka?</h2>
+            <p>Kepuasan pelanggan adalah kebahagian kami.</p>
+
+            <div class="testimonial-list">
+                <article class="testimonial-card">
+                    <div class="customer">
+                        <img class="avatar" src="assets/image/customer1.jpg" alt="">
+                        <div>
+                            <h3>Ricky Pratama</h3>
+                            <p class="stars" aria-label="5 dari 5 bintang">★★★★★</p>
+                        </div>
+                    </div>
+                    
+                    <blockquote>
+                        “Kopi di sini selalu konsisten enaknya. Tempatnya juga sangat nyaman buat kerja atau sekadar nongkrong.”
+                    </blockquote>
+                </article>
+                <article class="testimonial-card">
+                    <div class="customer">
+                        <img class="avatar" src="assets/image/customer2.jpg" alt="">
+                        <div>
+                            <h3>Indah Permata</h3>
+                            <p class="stars" aria-label="5 dari 5 bintang">★★★★★</p>
+                        </div>
+                    </div>
+                    
+                    <blockquote>
+                        “Suasana di Brew & Bean sangat cozy. Saya suka datang ke sini untuk menikmati kopi sambil membaca buku.”
+                    </blockquote>
+                </article>
+                <article class="testimonial-card">
+                    <div class="customer">
+                        <img class="avatar" src="assets/image/customer3.jpg" alt="">
+                        <div>
+                            <h3>Bagaskara</h3>
+                            <p class="stars" aria-label="5 dari 5 bintang">★★★★★</p>
+                        </div>
+                    </div>
+
+                    <blockquote>
+                        “Tempat yang sempurna untuk berkumpul dengan teman-teman. Kopinya enak dan pelayanannya ramah.”
+                    </blockquote>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer id="location" class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">Brew &amp; Bean</a>
+                <p>Good Coffee, Better Days</p>
+            </div>
+            <nav class="footer-nav" aria-label="Navigasi footer">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <h2>Contact</h2>
+                <address>
+                    <a href="tel:+6281234567890">☎ +62 812 3456 7890</a>
+                    <a href="mailto:hello@brewandbean.id">✉ hello@brewandbean.id</a>
+                    <a href="#location">📍 Jl. Melati No. 12, Jakarta</a>
+                </address>
+            </div>
+            <div class="footer-social">
+                <h2>Follow Us</h2>
+                <a href="#" aria-label="Facebook Brew &amp; Bean">Facebook</a>
+                <a href="#" aria-label="Instagram Brew &amp; Bean">Instagram</a>
+                <a href="#" aria-label="Twitter Brew &amp; Bean">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Brew &amp; Bean. Hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
