@@ -203,7 +203,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url("/assets/image/hero.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url("assets/image/hero.jpg") center/cover no-repeat;
     color: #ffffff;
 }
 
